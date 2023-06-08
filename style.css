@@ -1,0 +1,144 @@
+@keyframes bleh {
+  0% { background-color: #2a373e; }
+  20% { background-color: #2a373e; }
+  100% { background-color: #132409; }
+}
+
+body {
+  background-color: #2a373e;
+  font-family: "Comic Sans MS", "Comic Sans", "Comic Neue", cursive;
+  color: ghostwhite;
+  animation: bleh 10800s linear forwards;
+}
+
+.main-gaming {
+  position: fixed;
+  top: 50%;
+  left: 56%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.big-gaming {
+  font-size: 12vmin;
+}
+
+.pro-gaming {
+  font-size: 3vmin;
+}
+
+.epic {
+  position: fixed;
+  top: 7%;
+  right: -0.7%;
+  font-size: 7vmin;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.gamer-moment {
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  font-size: 3vmin;
+}
+
+.big-gamer {
+  position: fixed;
+  bottom: 17%;
+  left: 12%;
+  font-size: 4vmin;
+}
+
+@keyframes eee {
+  0% { opacity: 100%; }
+  100% { opacity: 0; }
+}
+
+div.e {
+  position: fixed;
+  top: 15%;
+  left: 25%;
+  font-size: 5vmin;
+  color: #ffffff60;
+  animation: eee 10800s linear forwards;
+}
+
+@keyframes bam {
+  0% { top: 20%; left: 70%; font-size: 2vmin; width: unset; }
+  10% { top: 25%; left: 71%; }
+  20% { top: 30%; left: 60%; }
+  29% { top: 30%; left: 60%; font-size: 2.4vmin; }
+  29.2% { top: 30%; left: 60%; font-size: 2.8vmin; }
+  29.4% { top: 30%; left: 60%; font-size: 3.2vmin; }
+  29.6% { top: 30%; left: 60%; font-size: 3.6vmin; }
+  29.8% { top: 30%; left: 60%; font-size: 4vmin; }
+  30% { top: -1000%; left: -1000%; font-size: 2vmin; }
+  32% { top: 22%; left: 77%; }
+  40% { top: 25%; left: 71%; }
+  50% { top: 20%; left: 70%; }
+  60% { top: 22%; left: 69.420%; }
+  70% { top: 18%; left: 75%; }
+  80% { top: 80%; left: 11%; }
+  81% { top: 16%; left: 80%; }
+  90% { top: 22%; left: 72%; }
+  99% { top: 15%; left: 75%; width: 0; }
+  100% { top: 15%; left: 75%; width: unset; font-size: 100%; }
+}
+
+
+@keyframes bam2 {
+  0% { width: 0; }
+  99% { width: unset; }
+  100% { width: 0; }
+}
+
+div.me {
+  overflow: hidden;
+  width: unset;
+  position: fixed;
+  top: 20%;
+  left: 70%;
+  font-size: 2vmin;
+  animation: bam 36000s infinite steps(1);
+}
+
+div.rne {
+  overflow: hidden;
+  width: 0;
+  position: fixed;
+  top: 24%;
+  left: 63%;
+  animation: bam2 36000s infinite steps(1);
+}
+
+.stupidity {
+  position: fixed;
+  bottom: 1%;
+  left: 3%;
+  color: antiquewhite;
+  font-size: 1.7vmin;
+}
+
+@keyframes spac {
+  0% { margin: 0; }
+  100% { margin: 0 10000px; margin: 0 min(10000px, calc(100vh - 1em)); }
+}
+
+.space {
+  animation: spac 86400s linear forwards;
+}
+
+.main-img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-img > img {
+  display: block;
+  width: 30vw;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
