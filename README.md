@@ -1,2 +1,0 @@
-# progaming
-https://progami.ng
